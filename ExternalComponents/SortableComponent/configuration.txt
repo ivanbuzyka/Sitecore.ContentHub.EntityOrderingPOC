@@ -1,0 +1,1 @@
+1. Add jQuery Sortable as resource: https://johnny.github.io/jquery-sortable/js/jquery-sortable.js

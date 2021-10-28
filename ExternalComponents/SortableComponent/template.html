@@ -1,0 +1,26 @@
+<style>
+    body.dragging, body.dragging * {
+  cursor: move !important;
+}
+
+.dragged {
+  position: absolute;
+  opacity: 0.5;
+  z-index: 2000;
+}
+
+ol.example li.placeholder {
+  position: relative;
+  /** More li styles **/
+}
+ol.example li.placeholder:before {
+  position: absolute;
+  /** Define arrowhead **/
+}
+</style>
+<h3>Please related assets:</h3>
+<div>
+    <ul class='example'>        
+    </ul>
+    <a id="testbutton1" class="btn btn-primary">SAVE ORDER</a>
+</div>
